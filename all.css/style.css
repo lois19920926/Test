@@ -96,6 +96,7 @@ table {
 .mainpic{
     display: flex;
     padding: 50px;
+    color: antiquewhite;  /**/
 }
 
 /* .background{
