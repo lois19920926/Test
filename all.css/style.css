@@ -88,12 +88,12 @@ table {
 
 }
 
-.mainpic{
+.mainList{
     background-image: url(https://images.unsplash.com/photo-1551829142-d9b8cf2c9232?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80);
     height: 900px;    
 }
 
-.mainpic{
+.mainList{
     display: flex;
     padding: 50px;
     color: antiquewhite;  /**/
@@ -104,31 +104,20 @@ table {
     height: 900px;
 } */
 
-.footer {
-    height: 120px;
-    font-size: 16px;
-    text-align: center;
-    background-color:#ffffff;
-    line-height: 120px;
-}
-
-
-.red {
-    color: red;
-}
-
 
 
 /* product */
 .list{
     display: flex;
+}
 
+.mainList>li {
+    margin-right: 50px;
 }
 
 .pic{
     width: 300px;
     height: 300px;
-    background-color: blue;
     display: flex;
 }
 
@@ -159,7 +148,8 @@ table {
 }
 .productDescription {
     font-size: 14px;
-    line-height: 1.5;   
+    line-height: 1.5;  
+    height: 180px; 
     margin-bottom: 10px; 
 }
 .productPrice {
@@ -173,4 +163,14 @@ table {
     text-align: right;
     align-self: flex-end;
 }
+
+
+
+.footer {
+    height: 120px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 120px;
+}
+
 
