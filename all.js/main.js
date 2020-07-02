@@ -1,16 +1,13 @@
 var uuid ='64349c0e-ef4d-436d-b317-a419a2161160';
-var token = 'SO51PiJyqrKrdilUsD9QUYLMKSr8vU7qvwagMGMr95MssanSxK5qIUdvcDMd';
 var apiPath = 'https://course-ec-api.hexschool.io/';
-
-//驗證
-axios.defaults.headers['Authorization'] = `Bearer ${token}`;
-
 var data;
+
+
 var obj = {
     data:[],
     getdata(){
         const vm = this;
-        var api = `${apiPath}api/${uuid}/admin/ec/products`;
+        var api = `${apiPath}api/${uuid}/ec/products`;
         console.log(api);
         axios.get(api)
             .then (function(res) {
@@ -25,7 +22,7 @@ var obj = {
             });             
         },
         render(){  //obj裡的函式
-            console.log(this);
+//            console.log(this);
             var str = '';
             this.data.forEach((item,index)=>{
                 str +=
