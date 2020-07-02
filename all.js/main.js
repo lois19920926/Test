@@ -37,7 +37,7 @@ var obj = {
                         <li class="productName">${this.data[index].title}</li>
                         <li class="productDescription">${this.data[index].content}</li>
                         <li class="productPrice">NT: ${this.data[index].price}</li>
-                        <li class="productAdd">加入購物車</li>
+                        <li class="productAdd"><input type="button" value="加入購物車"" class="addBtn"></li>
                     </ul>
                 </div>
                 </li>

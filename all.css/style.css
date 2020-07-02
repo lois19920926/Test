@@ -96,13 +96,8 @@ table {
 .mainList{
     display: flex;
     padding: 50px;
-    color: antiquewhite;  /**/
-}
 
-/* .background{
-    background-image: url(https://images.unsplash.com/photo-1551829142-d9b8cf2c9232?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80);
-    height: 900px;
-} */
+}
 
 
 
@@ -158,11 +153,28 @@ table {
     align-self: flex-end;
 }
 .productAdd {
-    font-size: 20px;
     width: 50%;
     text-align: right;
     align-self: flex-end;
 }
+
+.addBtn {
+    font-size: 14px;
+    width: 100px;
+    height: 100%;
+    border-radius: 5px;
+    border: 1px solid  #B49CBA;
+    color:  #B49CBA;
+    background-color: #ffffff;
+    outline:none;  /* 取消點擊後藍框 */    
+
+}
+.addBtn:hover{
+    color:  #ffffff;
+    background-color: #B49CBA;
+}
+
+
 
 
 
